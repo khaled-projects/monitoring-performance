@@ -1,25 +1,32 @@
 Estimate summary
 Upfront cost,Monthly cost,Total 12 months cost,Currency
-0,1637.59,19651.08,USD
+0,16625.800000000003,199509.60,USD
 ,,* Includes upfront cost
 
 
 Detailed Estimate
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
-My Estimate,US East (N. Virginia),,Application Load Balancer,0,178.85,2146.20,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,640,7680.00,USD,,"S3 Standard storage (20000 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (20000000), GET, SELECT, and all other requests from S3 Standard (200000000)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
 My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
-My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,65.7,788.40,USD,,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),,Amazon CloudFront,0,4.26,51.12,USD,,"Data transfer out to internet (48.976 GB per month), Data transfer out to origin (4.8976 GB per month), Number of requests (HTTPS) (140.000000 per month)"
-My Estimate,US East (N. Virginia),,S3 Standard,0,38.73,464.76,USD,,"S3 Standard storage (510 GB per month), GET, SELECT, and all other requests from S3 Standard (30000000), PUT, COPY, POST, LIST requests to S3 Standard (3000000)"
-My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
-My Estimate,US East (N. Virginia),,Amazon EC2 ,0,60.736,728.83,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (t3.medium), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,178.65,2143.80,USD,,"Storage amount (30 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (1), Instance type (db.m5d.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Single-AZ), Pricing strategy (OnDemand)"
-My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1110.6599999999999,13327.92,USD,,"Storage amount (30 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (1), Instance type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.19)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,248.22,2978.64,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Public IPv4 Address,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (20 TB per month), DT Inbound: Not selected (1 TB per month), DT Outbound: Not selected (20 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,1831.22,21974.64,USD,,"Data transfer out to internet (21000 GB per month), Data transfer out to origin (1 GB per month), Number of requests (HTTPS) (100000000 per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,441.65000000000003,5299.80,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon RDS Custom for SQL Server,0,3504,42048.00,USD,,"Storage for each RDS Custom for SQL Server instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Instance type (db.m5.4xlarge), Number of RDS Custom for SQL Server instances (1), Utilization (On-Demand only) (100 %Utilized/Month), Database edition (Developer), Deployment option (Multi-AZ), License (Customer-provided), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Amazon RDS Custom for SQL Server,0,1752,21024.00,USD,,"Storage for each RDS Custom for SQL Server instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Instance type (db.m5.4xlarge), Number of RDS Custom for SQL Server instances (1), Utilization (On-Demand only) (100 %Utilized/Month), Database edition (Developer), Deployment option (Single-AZ), License (Customer-provided), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,1255.6,15067.20,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 10), Advance EC2 instance (m5a.xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,635.1,7621.20,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 10), Advance EC2 instance (m5a.xlarge), Pricing strategy (Compute Savings Plans 3yr No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,580.01,6960.12,USD,,"Hosted Zones (5), Basic Checks Within AWS (10), Number of Elastic Network Interfaces (2), Number of domains stored (10)"
+My Estimate,US East (N. Virginia),,AWS Web Application Firewall (WAF),0,88,1056.00,USD,,"Number of Web Access Control Lists (Web ACLs) utilized (1 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (2 per month), Number of Rules inside each Rule Group (5 per month), Number of Managed Rule Groups per Web ACL (1 per month)"
+My Estimate,US East (N. Virginia),,Amazon GuardDuty,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Amazon GuardDuty,0,4150,49800.00,USD,,"AWS CloudTrail Management Event Analysis (1000000000 per month), EC2 VPC Flow Log Analysis (100 GB per month), EC2 DNS Query Log Analysis (50 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,1500,18000.00,USD,,Number of Metrics (includes detailed and custom metrics) (5000)
 
 
 
 Acknowledgement
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
-##############
-
-To target a maximum monthly estimate of $20,000 while enhancing redundancy and performance, several changes were made to the infrastructure. Firstly, Multi-AZ deployment was re-enabled for RDS to ensure high availability and fault tolerance. Additionally, RDS Proxy was added to improve scalability and manageability of database connections, ensuring all requests are efficiently handled. Secondly, the size of the database was increased to accommodate the growing demand, and Performance Insights was enabled for 12 months to gain valuable performance metrics and leverage AWS Support benefits for the first year to ensure smooth operation and timely assistance in case of any issues. These adjustments collectively enhance the reliability, scalability, and performance of the infrastructure while staying within the specified budget.
+#####
+In order to enhance redundancy and improve performance while targeting a monthly estimate of a maximum of $20,000, several changes were made to the existing infrastructure. The sizes of the web servers and application database were increased to accommodate higher traffic loads and ensure smoother operation. Additionally, services such as Amazon GuardDuty and Amazon CloudWatch were added to bolster security monitoring and performance optimization. Route 53 was introduced to enhance DNS management and WAF (Web Application Firewall) was implemented to fortify web application security against potential threats. These adjustments aim to strengthen the overall resilience and efficiency of the infrastructure within the specified budget constraints.
