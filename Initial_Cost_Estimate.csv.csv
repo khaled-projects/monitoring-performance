@@ -1,20 +1,23 @@
-﻿Estimate summary
+Estimate summary
 Upfront cost,Monthly cost,Total 12 months cost,Currency
-0,732.5300000000001,8790.36,USD
+0,8042.93,96515.16,USD
 ,,* Includes upfront cost
 
 
 Detailed Estimate
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
-My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,256.56,3078.72,USD,,"Storage amount (30 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (1), Instance type (db.m5.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
-My Estimate,US East (N. Virginia),,Application Load Balancer,0,178.85,2146.20,USD,,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
-My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,65.7,788.40,USD,,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),,Amazon CloudFront,0,4.26,51.12,USD,,"Data transfer out to internet (48.976 GB per month), Data transfer out to origin (4.8976 GB per month), Number of requests (HTTPS) (140.000000 per month)"
-My Estimate,US East (N. Virginia),,S3 Standard,0,38.73,464.76,USD,,"S3 Standard storage (510 GB per month), GET, SELECT, and all other requests from S3 Standard (30000000), PUT, COPY, POST, LIST requests to S3 Standard (3000000)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,700.8,8409.60,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 10), Advance EC2 instance (m5.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,1423.5,17082.00,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 10), Advance EC2 instance (m5.2xlarge), Pricing strategy (Compute Savings Plans 3yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,640,7680.00,USD,,"S3 Standard storage (20000 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (20000000), GET, SELECT, and all other requests from S3 Standard (200000000)"
 My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
-My Estimate,US East (N. Virginia),,Amazon EC2 ,0,60.152,721.82,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3.medium), Pricing strategy (Compute Savings Plans 3yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,128.28,1539.36,USD,,"Storage amount (30 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (1), Instance type (db.m5.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Single-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,248.22,2978.64,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Public IPv4 Address,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (20 TB per month), DT Inbound: Not selected (1 TB per month), DT Outbound: Not selected (20 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1005.54,12066.48,USD,,"Storage amount (30 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (1), Instance type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Amazon RDS Custom for SQL Server,0,1752,21024.00,USD,,"Storage for each RDS Custom for SQL Server instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (db.m5.2xlarge), Number of RDS Custom for SQL Server instances (1), Utilization (On-Demand only) (100 %Utilized/Month), Database edition (Developer), Deployment option (Multi-AZ), License (Customer-provided), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,1831.22,21974.64,USD,,"Data transfer out to internet (21000 GB per month), Data transfer out to origin (1 GB per month), Number of requests (HTTPS) (100000000 per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,441.65000000000003,5299.80,USD,,Number of Application Load Balancers (2)
 
 
 
